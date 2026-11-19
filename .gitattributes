@@ -83,8 +83,6 @@ Packages/packages-lock.json linguist-generated
 *.collada               lfs
 *.dae                   lfs
 *.dxf                   lfs
-*.FBX                   lfs
-*.fbx                   lfs
 *.jas                   lfs
 *.lws                   lfs
 *.lxo                   lfs
@@ -128,7 +126,6 @@ Packages/packages-lock.json linguist-generated
 *.jpeg                  lfs
 *.jpg                   lfs
 *.pict                  lfs
-*.png                   lfs
 *.psd                   lfs
 *.tga                   lfs
 *.tif                   lfs
@@ -170,5 +167,3 @@ Packages/packages-lock.json linguist-generated
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
 
-# Small file stored directly in Git (LFS budget exceeded)
-Assets/TutorialInfo/Icons/URP.png -filter -diff -merge -text
